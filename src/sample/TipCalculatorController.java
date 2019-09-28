@@ -53,7 +53,7 @@ public class TipCalculatorController {
             BigDecimal perP = new BigDecimal(peopleField.getText());
             BigInteger totalInt = total.toBigInteger();
             BigInteger perPint = perP.toBigInteger();
-            
+
 
 
                     tipTextField.setText(currency.format(tip));
